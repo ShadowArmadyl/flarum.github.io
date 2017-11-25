@@ -3,38 +3,7 @@ layout: default
 class: home
 ---
 <header class="Intro">
-  <h1 class="Intro-brand">
-    <object data="img/logo.svg">
-      <img src="img/logo.png" alt="Flarum">
-    </object>
-  </h1>
-
-  <div class="animated fadeIn">
-    <div class="Intro-beta">BETA</div>
     
-    <h2>Forums made simple.</h2>
-    <p>Flarum is the next-generation forum software that makes online discussion fun. It's simple, fast, and free.</p>
-
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script>
-  $(function() {
-    var $carousel = $('.Carousel');
-    $carousel.wrapInner($('<div class="CarouselGroup"/>'));
-    var $group = $('.CarouselGroup');
-    var $group2 = $group.clone().appendTo($carousel);
-
-    var animate = function() {
-      $group.css({marginLeft: 0}).animate({marginLeft: -$group.width()}, 70000, 'linear').promise().done(function() {
-        animate();
-      });
-    };
-
-    animate();
-
-    if (window.devicePixelRatio > 1) {
-      var $screenshot = $('.Home-screenshot img');
-
-      $screenshot.attr('src', $screenshot.attr('src').replace('.', '_2x.'));
-    }
-  });
-</script>
+    <p>On November 25th, 2017, UnraveledMC ceased server and online operations.</p>
+    <p>Since then, the server has been redirected to <a href="https://shadow.ga/">shadow.ga</a>, a succeeding creative server with identical values and current uptime.</p>
+    <p>If you haven't already, we think you should check it out.</p>
